@@ -7,7 +7,7 @@
 			<field name="inherit_id" ref="product.product_template_form_view" />
 			<field name="arch" type="xml">
 				<notebook position="inside">
-					<page string="Product Sales Price History">
+					<page string="Sales Price History">
 						<field name="sale_price_history_ids" nolabel="1" mode="list,kanban">
 							<list>
 								<field name="product_tmpl_id"/>
@@ -22,7 +22,7 @@
 							</list>
 						</field>
 					</page>
-					<page string="Product Purchase Price History">
+					<page string="Purchase Price History">
 						<field name="purchase_price_history_ids" nolabel="1" mode="list,kanban">
 							<list>
 								<field name="product_tmpl_id"/>
